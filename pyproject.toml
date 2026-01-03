@@ -3,7 +3,7 @@ name = "openbadges-core"
 version = "0.1.0"
 description = "A modern Python implementation of OpenBadges 3.0 specification"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 authors = [
     { name = "OpenBadges Core Contributors" }
 ]
@@ -14,6 +14,7 @@ classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
@@ -46,14 +47,14 @@ packages = ["openbadges_core"]
 
 [tool.black]
 line-length = 100
-target-version = ["py312"]
+target-version = ["py311"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py312"
+target-version = "py311"
 
 [tool.mypy]
-python_version = "3.12"
+python_version = "3.11"
 strict = true
 warn_return_any = true
 warn_unused_configs = true
